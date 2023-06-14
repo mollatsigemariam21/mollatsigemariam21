@@ -34,7 +34,7 @@ int main() {
         cout<<"Enter Owner Signature\n";
         cin>>persons[i].signature;
     }
-    for(int i=0; i <1; i++) {
+    for(int i=0; i <10; i++) {
         cout<<"\tDear Customer Here is Your Ticket\n";
         cout<<"Your Full Name......\t\t"<<fullName(persons[i].firstName,persons[i].middleName,persons[i].lastName);
         cout<<"\nYour departure Place...........\t"<<persons[i].departurePlace;
